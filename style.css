@@ -22,7 +22,7 @@
   display: grid;
   grid-gap: calc(var(--gutter) / 2);
   grid-template-columns: 10px repeat(var(--total), calc(50% - var(--gutter) * 2)) 10px;
-  grid-template-rows: minmax(1200px, 1fr);
+  grid-template-rows: minmax(1500px, 1fr);
   
   overflow-x: scroll;
   scroll-snap-type: x proximity;
