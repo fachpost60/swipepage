@@ -22,7 +22,7 @@
   display: grid;
   grid-gap: calc(var(--gutter) / 2);
   grid-template-columns: 10px repeat(var(--total), calc(50% - var(--gutter) * 2)) 10px;
-  grid-template-rows: minmax(350px, 1fr);
+  grid-template-rows: minmax(850px, 1fr);
   
   overflow-x: scroll;
   scroll-snap-type: x proximity;
@@ -61,8 +61,8 @@ h3 {
 }
 
 .app {
-  width: 800px;
-  height: 375px;
+  width: 100%;
+  height: 100%;
   background: #DBD0BC;
   overflow-y: scroll;
 }
