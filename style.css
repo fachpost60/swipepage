@@ -78,8 +78,5 @@ h3 {
   background: #fff;
   border-radius: 8px;
   background: url('img/1.png');
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-position: center top;
-  background-attachment: fixed;
+  background-size: cover;
 }
